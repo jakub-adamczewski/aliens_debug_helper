@@ -1,6 +1,10 @@
 from datetime import time
 
 
+def to_seconds(time: time) -> int:
+    return time.hour * 3600 + time.minute * 60 + time.second
+
+
 def get_text_between(left: str, right: str, text: str):
     left_index = text.index(left) + len(left)
     right_index = left_index + text[left_index:].index(right)
@@ -35,6 +39,13 @@ def get_times_and_hotel_stays(path: str):
                 )
             )
     return times, msgs
+
+
+def get_alien_fraction(path: str):
+    with open(path) as f:
+        text = f.read()
+        index_before_alien_type = text.index('f:')
+        return text[index_before_alien_type + 2: index_before_alien_type + 3]
 
 
 def msg_to_level(msg: str) -> int:

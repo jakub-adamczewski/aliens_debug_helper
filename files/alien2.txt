@@ -1,0 +1,82 @@
+c:0|r:2|f:B|s:NO_HOTEL|t:14:53:04|msg:Looking for hotel.|
+c:0|r:2|f:B|s:NO_HOTEL|t:14:53:04|msg:sleeping for 1 seconds|
+c:1|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:05|msg:Sent requests for hotel 1.|
+c:2|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:05|msg:Got HOTEL_REQUEST_RESP|
+c:2|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:05|msg:Got HOTEL_REQUEST_RESP|
+c:2|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:05|msg:Got HOTEL_REQUEST_RESP|
+c:3|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:05|msg:Got HOTEL_REQUEST|
+c:5|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:07|msg:Got HOTEL_REQUEST|
+c:7|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:07|msg:Got HOTEL_REQUEST|
+c:7|r:2|f:B|s:IN_HOTEL|t:14:53:07|msg:E1.marker|
+c:7|r:2|f:B|s:IN_HOTEL|t:14:53:07|msg:sleeping for 2 seconds|
+c:8|r:2|f:B|s:NO_HOTEL|t:14:53:09|msg:L1.marker|
+c:8|r:2|f:B|s:NO_HOTEL|t:14:53:09|msg:Looking for hotel.|
+c:8|r:2|f:B|s:NO_HOTEL|t:14:53:09|msg:sleeping for 4 seconds|
+c:9|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:13|msg:Sent requests for hotel 0.|
+c:9|r:2|f:B|s:IN_HOTEL|t:14:53:13|msg:E0.marker|
+c:9|r:2|f:B|s:IN_HOTEL|t:14:53:13|msg:sleeping for 1 seconds|
+c:10|r:2|f:B|s:NO_HOTEL|t:14:53:14|msg:L0.marker|
+c:10|r:2|f:B|s:NO_HOTEL|t:14:53:14|msg:Looking for hotel.|
+c:10|r:2|f:B|s:NO_HOTEL|t:14:53:14|msg:sleeping for 4 seconds|
+c:11|r:2|f:B|s:NO_HOTEL|t:14:53:16|msg:Got HOTEL_RELEASE|
+c:12|r:2|f:B|s:NO_HOTEL|t:14:53:17|msg:Got HOTEL_REQUEST|
+c:13|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:18|msg:Sent requests for hotel 1.|
+c:14|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:21|msg:Got HOTEL_RELEASE|
+c:15|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:21|msg:Got HOTEL_RELEASE|
+c:16|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:22|msg:Got HOTEL_REQUEST|
+c:17|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:24|msg:Got HOTEL_REQUEST|
+c:18|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:25|msg:Got HOTEL_RELEASE|
+c:19|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:28|msg:Got HOTEL_REQUEST|
+c:19|r:2|f:B|s:IN_HOTEL|t:14:53:28|msg:E1.marker|
+c:19|r:2|f:B|s:IN_HOTEL|t:14:53:28|msg:sleeping for 1 seconds|
+c:21|r:2|f:B|s:NO_HOTEL|t:14:53:29|msg:Got HOTEL_RELEASE|
+c:21|r:2|f:B|s:NO_HOTEL|t:14:53:29|msg:L1.marker|
+c:21|r:2|f:B|s:NO_HOTEL|t:14:53:29|msg:Looking for hotel.|
+c:21|r:2|f:B|s:NO_HOTEL|t:14:53:29|msg:sleeping for 3 seconds|
+c:22|r:2|f:B|s:NO_HOTEL|t:14:53:30|msg:Got HOTEL_RELEASE|
+c:23|r:2|f:B|s:NO_HOTEL|t:14:53:31|msg:Got HOTEL_REQUEST|
+c:24|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:32|msg:Sent requests for hotel 0.|
+c:24|r:2|f:B|s:IN_HOTEL|t:14:53:32|msg:E0.marker|
+c:24|r:2|f:B|s:IN_HOTEL|t:14:53:32|msg:sleeping for 3 seconds|
+c:25|r:2|f:B|s:IN_HOTEL|t:14:53:33|msg:Got HOTEL_REQUEST|
+c:26|r:2|f:B|s:NO_HOTEL|t:14:53:35|msg:L0.marker|
+c:26|r:2|f:B|s:NO_HOTEL|t:14:53:35|msg:Looking for hotel.|
+c:26|r:2|f:B|s:NO_HOTEL|t:14:53:35|msg:sleeping for 3 seconds|
+c:27|r:2|f:B|s:NO_HOTEL|t:14:53:35|msg:Got HOTEL_RELEASE|
+c:28|r:2|f:B|s:NO_HOTEL|t:14:53:36|msg:Got HOTEL_RELEASE|
+c:29|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:38|msg:Sent requests for hotel 1.|
+c:30|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:38|msg:Got HOTEL_RELEASE|
+c:31|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:39|msg:Got HOTEL_REQUEST|
+c:32|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:39|msg:Got HOTEL_REQUEST|
+c:32|r:2|f:B|s:IN_HOTEL|t:14:53:39|msg:E1.marker|
+c:32|r:2|f:B|s:IN_HOTEL|t:14:53:39|msg:sleeping for 4 seconds|
+c:33|r:2|f:B|s:IN_HOTEL|t:14:53:42|msg:Got HOTEL_REQUEST|
+c:34|r:2|f:B|s:IN_HOTEL|t:14:53:43|msg:Got HOTEL_RELEASE|
+c:35|r:2|f:B|s:NO_HOTEL|t:14:53:43|msg:L1.marker|
+c:35|r:2|f:B|s:NO_HOTEL|t:14:53:43|msg:Looking for hotel.|
+c:35|r:2|f:B|s:NO_HOTEL|t:14:53:43|msg:sleeping for 1 seconds|
+c:36|r:2|f:B|s:NO_HOTEL|t:14:53:44|msg:Got HOTEL_REQUEST|
+c:37|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:44|msg:Sent requests for hotel 0.|
+c:37|r:2|f:B|s:IN_HOTEL|t:14:53:44|msg:E0.marker|
+c:37|r:2|f:B|s:IN_HOTEL|t:14:53:44|msg:sleeping for 2 seconds|
+c:38|r:2|f:B|s:NO_HOTEL|t:14:53:46|msg:L0.marker|
+c:38|r:2|f:B|s:NO_HOTEL|t:14:53:46|msg:Looking for hotel.|
+c:38|r:2|f:B|s:NO_HOTEL|t:14:53:46|msg:sleeping for 1 seconds|
+c:38|r:2|f:B|s:NO_HOTEL|t:14:53:46|msg:Got HOTEL_RELEASE|
+c:39|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:47|msg:Sent requests for hotel 0.|
+c:39|r:2|f:B|s:IN_HOTEL|t:14:53:47|msg:E0.marker|
+c:39|r:2|f:B|s:IN_HOTEL|t:14:53:47|msg:sleeping for 2 seconds|
+c:40|r:2|f:B|s:IN_HOTEL|t:14:53:49|msg:Got HOTEL_REQUEST|
+c:41|r:2|f:B|s:NO_HOTEL|t:14:53:49|msg:L0.marker|
+c:41|r:2|f:B|s:NO_HOTEL|t:14:53:49|msg:Looking for hotel.|
+c:41|r:2|f:B|s:NO_HOTEL|t:14:53:49|msg:sleeping for 3 seconds|
+c:42|r:2|f:B|s:NO_HOTEL|t:14:53:51|msg:Got HOTEL_RELEASE|
+c:43|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:52|msg:Sent requests for hotel 1.|
+c:44|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:52|msg:Got HOTEL_REQUEST|
+c:45|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:54|msg:Got HOTEL_RELEASE|
+c:46|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:55|msg:Got HOTEL_RELEASE|
+c:47|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:57|msg:Got HOTEL_REQUEST|
+c:48|r:2|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:53:59|msg:Got HOTEL_REQUEST|
+c:48|r:2|f:B|s:IN_HOTEL|t:14:53:59|msg:E1.marker|
+c:48|r:2|f:B|s:IN_HOTEL|t:14:53:59|msg:sleeping for 4 seconds|
+c:49|r:2|f:B|s:IN_HOTEL|t:14:54:01|msg:Got HOTEL_RELEASE|
