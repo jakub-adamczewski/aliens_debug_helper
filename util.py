@@ -35,3 +35,14 @@ def get_times_and_hotel_stays(path: str):
                 )
             )
     return times, msgs
+
+
+def msg_to_level(msg: str) -> int:
+    if "Start" in msg:
+        return -2
+    elif "Stop" in msg:
+        return 2
+    elif "E" in msg:
+        return 1
+    elif "L" in msg:
+        return -1

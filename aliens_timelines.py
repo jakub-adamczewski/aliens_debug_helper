@@ -3,6 +3,7 @@ import numpy as np
 from datetime import datetime
 from datetime import time
 
+import util
 from util import get_times_and_hotel_stays
 
 aliens_count = 2
@@ -22,13 +23,14 @@ fig, axs = plt.subplots(aliens_count, 1, constrained_layout=True)
 for alien_rank in range(aliens_count):
     times, msgs = all_times[alien_rank], all_msgs[alien_rank]
 
-    times.insert(0, min_time)
-    times.append(max_time)
-    msgs.insert(0, 'S')
-    msgs.append('E')
+    times.insert(0, min_time.replace(second=min_time.second - 1))
+    times.append(max_time.replace(second=max_time.second + 1))
+    msgs.insert(0, 'Start')
+    msgs.append('Stop')
 
     datetimes = list(map(lambda tm: datetime(2023, 1, 1, tm.hour, tm.minute, tm.second), times))
-    levels = np.tile([1, -1], int(np.ceil(len(datetimes) / 2)))[:len(datetimes)]
+
+    levels = list(map(util.msg_to_level, msgs))
 
     axs[alien_rank].set_xlabel(f'Alien {alien_rank}')
     axs[alien_rank].vlines(datetimes, 0, levels, color="tab:red")
@@ -41,7 +43,7 @@ for alien_rank in range(aliens_count):
             xytext=(-3, np.sign(l) * 3),
             textcoords="offset points",
             horizontalalignment="right",
-            verticalalignment="bottom" if l > 0 else "top"
+            verticalalignment="top" if l > 0 else "bottom"
         )
 
     axs[alien_rank].yaxis.set_visible(False)
