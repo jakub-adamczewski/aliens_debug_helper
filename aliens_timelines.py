@@ -5,7 +5,7 @@ from plots import create_plot
 from util import get_times_and_hotel_stays, get_alien_fraction
 
 aliens_count = 4
-hotels_capacities = [1, 2]
+hotels_capacities = [2]
 
 all_times, all_msgs = [], []
 min_time, max_time = datetime.time(23, 59, 59), datetime.time(0, 0, 0)

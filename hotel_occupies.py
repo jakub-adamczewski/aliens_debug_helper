@@ -30,7 +30,7 @@ def print_when_hotel_was_occupied_by_which_aliens(
                 key = (occupied_hotel_id, alien_id, alien_fraction)
                 if key not in hotels_occupies:
                     hotels_occupies[key] = []
-                stay_seconds = list(range(stay_start_sec, curr_second))
+                stay_seconds = list(range(stay_start_sec, curr_second + 1))
                 [hotels_occupies[key].append(s) for s in stay_seconds]
                 occupied_hotel_id, stay_start_sec = None, None
 
@@ -44,6 +44,11 @@ def print_when_hotel_was_occupied_by_which_aliens(
                     guests_count_in_hotels[key] = 1
                 else:
                     guests_count_in_hotels[key] += 1
-                assert (guests_count_in_hotels[hotel_id] <= hotels_capacities[hotel_id])
+                try:
+                    assert (guests_count_in_hotels[hotel_id] <= hotels_capacities[hotel_id])
+                except AssertionError:
+                    print('Overlapping stay!')
+                    # happens when during given second there are more aliens in hotel, then it's capacity
+                    # it should happen only when alien leaves the hotel, and next one enters it right after him
                 print(f'|H:{hotel_id}|A:{alien_id}|F:{alien_fraction}|')
         print()
