@@ -9,9 +9,9 @@ import util
 def create_plot(
         hotels_capacities: list,
         aliens_count: int,
-        min_time: datetime.time,
-        max_time: datetime.time,
-        all_times: list,
+        min_clock: int,
+        max_clock: int,
+        all_clocks: list,
         all_msgs: list,
         alien_fractions: list
 ):
@@ -20,30 +20,26 @@ def create_plot(
     fig.suptitle(f'Hotel capacities: {hotels_capacities}')
 
     for alien_rank in range(aliens_count):
-        times, msgs = all_times[alien_rank], all_msgs[alien_rank]
+        clocks, msgs = all_clocks[alien_rank], all_msgs[alien_rank]
+        base_date = datetime.datetime(2023, 1, 1, 0, 0, 0)
 
-        times.insert(0, min_time)
-        times.append(max_time)
+        datetimes = list(map(lambda clk: base_date + datetime.timedelta(seconds=clk), clocks))
+        datetimes.insert(0, base_date - datetime.timedelta(seconds=1))
+        clocks.insert(0, min_clock - 1)
         msgs.insert(0, 'Start')
+        datetimes.append(base_date + datetime.timedelta(seconds=max_clock + 1))
         msgs.append('Stop')
-
-        datetimes = list(map(lambda tm: datetime.datetime(2023, 1, 1, tm.hour, tm.minute, tm.second), times))
-        datetimes[0] -= datetime.timedelta(seconds=1)
-        min_datetime = datetimes[0]
-        datetimes[-1] += datetime.timedelta(seconds=1)
+        clocks.append(max_clock + 1)
 
         levels = list(map(util.msg_to_level, msgs))
 
         axs[alien_rank].set_xlabel(f'Alien {alien_rank} {alien_fractions[alien_rank]}')
         axs[alien_rank].vlines(datetimes, 0, levels, color="tab:red")
-        axs[alien_rank].plot(datetimes, np.zeros_like(datetimes), "-o",
-                             color="k", markerfacecolor="w")
+        axs[alien_rank].plot(datetimes, np.zeros_like(datetimes), "-o", color="k", markerfacecolor="w")
 
-        for dt, l, m in zip(datetimes, levels, msgs):
-            secs_from_beginning = util.to_seconds(dt.time()) - util.to_seconds(min_datetime.time())
-
+        for dt, l, m, clk in zip(datetimes, levels, msgs, clocks):
             axs[alien_rank].annotate(
-                f'{m}-{secs_from_beginning}',
+                f'{m}-{clk}',
                 xy=(dt, l),
                 xytext=(-3, np.sign(l) * 3),
                 textcoords="offset points",

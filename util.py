@@ -1,8 +1,8 @@
 from datetime import time
 
 
-def to_seconds(time: time) -> int:
-    return time.hour * 3600 + time.minute * 60 + time.second
+# def to_seconds(time: time) -> int:
+#     return time.hour * 3600 + time.minute * 60 + time.second
 
 
 def get_text_between(left: str, right: str, text: str):
@@ -11,7 +11,7 @@ def get_text_between(left: str, right: str, text: str):
     return text[left_index:right_index]
 
 
-def get_times_and_hotel_stays(path: str):
+def get_clocks_and_hotel_stays(path: str):
     with open(path) as f:
         enters_and_leaves = list(
             filter(
@@ -20,12 +20,12 @@ def get_times_and_hotel_stays(path: str):
             )
         )
 
-        times, msgs = [], []
+        clocks, msgs = [], []
         for line in enters_and_leaves:
-            times.append(
-                time.fromisoformat(
+            clocks.append(
+                int(
                     get_text_between(
-                        left='|t:',
+                        left='|c:',
                         right='|',
                         text=line
                     )
@@ -38,7 +38,7 @@ def get_times_and_hotel_stays(path: str):
                     text=line
                 )
             )
-    return times, msgs
+    return clocks, msgs
 
 
 def get_alien_fraction(path: str):
