@@ -50,5 +50,11 @@ def print_when_hotel_was_occupied_by_which_aliens(
                     print('Overlapping stay!')
                     # happens when during given second there are more aliens in hotel, then it's capacity
                     # it should happen only when alien leaves the hotel, and next one enters it right after him
-                print(f'|H:{hotel_id}|A:{alien_id}|F:{alien_fraction}|')
+                print(f'|H:{hotel_id}|A:{alien_id}|F:{alien_fraction}|', end='-')
+                if second - 1 not in occupied_seconds:
+                    print("E")
+                elif second + 1 not in occupied_seconds:
+                    print("L")
+                else:
+                    print("I")
         print()

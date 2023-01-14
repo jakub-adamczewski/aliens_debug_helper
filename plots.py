@@ -15,7 +15,7 @@ def create_plot(
         all_msgs: list,
         alien_fractions: list
 ):
-    fig, axs = plt.subplots(aliens_count, 1, figsize=(10, 10), constrained_layout=True)
+    fig, axs = plt.subplots(aliens_count, 1, figsize=(18, 18), constrained_layout=True)
 
     fig.suptitle(f'Hotel capacities: {hotels_capacities}')
 
