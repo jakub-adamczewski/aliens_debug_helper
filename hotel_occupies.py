@@ -27,24 +27,26 @@ def print_when_hotel_was_occupied_by_which_aliens(
                 [hotels_occupies[key].append(elem) for elem in zip(clocks_during_stay, stay_states)]
                 occupied_hotel_id, stay_start_clock = None, None
 
-    for clk in range(min_clock - 2, max_clock + 2):
-        print(f'Clk: {clk} ')
-        guests_in_hotel = {}
-        for (hotel_id, alien_id, alien_fraction), occupied_clocks_with_stay_states in sorted(hotels_occupies.items()):
-            occupied_clocks, stay_states = list(zip(*occupied_clocks_with_stay_states))
-            if clk in occupied_clocks:
-                key = hotel_id
-                if key not in guests_in_hotel:
-                    guests_in_hotel[key] = [alien_fraction]
-                else:
-                    guests_in_hotel[key].append(alien_fraction)
-                try:
-                    assert (len(guests_in_hotel[key]) <= hotels_capacities[hotel_id])
-                except AssertionError:
-                    print('Too much guests in hotel!')
-                try:
-                    assert (len(set(guests_in_hotel[key])) <= 1)
-                except AssertionError:
-                    print('Both fractions in hotel!')
-                print(f'|H:{hotel_id}|A:{alien_id}|F:{alien_fraction}|-{stay_states[occupied_clocks.index(clk)]}')
-        print()
+    with open(f'files/occupies_output.txt', mode='w') as f:
+        for clk in range(min_clock - 2, max_clock + 2):
+            f.write(f'Clk: {clk} \n')
+            guests_in_hotel = {}
+            for (hotel_id, alien_id, alien_fraction), occupied_clocks_with_stay_states in sorted(
+                    hotels_occupies.items()):
+                occupied_clocks, stay_states = list(zip(*occupied_clocks_with_stay_states))
+                if clk in occupied_clocks:
+                    key = hotel_id
+                    if key not in guests_in_hotel:
+                        guests_in_hotel[key] = [alien_fraction]
+                    else:
+                        guests_in_hotel[key].append(alien_fraction)
+                    try:
+                        assert (len(guests_in_hotel[key]) <= hotels_capacities[hotel_id])
+                    except AssertionError:
+                        f.write('Error!!! Too much guests in hotel.\n')
+                    try:
+                        assert (len(set(guests_in_hotel[key])) <= 1)
+                    except AssertionError:
+                        f.write('Error!!! Both fractions in hotel.\n')
+                    f.write(f'|H:{hotel_id}|A:{alien_id}|F:{alien_fraction}|-{stay_states[occupied_clocks.index(clk)]}\n')
+            f.write('\n')

@@ -1,0 +1,288 @@
+Clk: 10 
+
+Clk: 11 
+
+Clk: 12 
+|H:0|A:2|F:B|-E
+
+Clk: 13 
+|H:0|A:2|F:B|-I
+
+Clk: 14 
+|H:0|A:2|F:B|-I
+
+Clk: 15 
+|H:0|A:2|F:B|-I
+
+Clk: 16 
+|H:0|A:2|F:B|-I
+
+Clk: 17 
+|H:0|A:2|F:B|-I
+|H:1|A:1|F:P|-E
+
+Clk: 18 
+|H:0|A:2|F:B|-I
+|H:1|A:1|F:P|-L
+
+Clk: 19 
+|H:0|A:2|F:B|-I
+
+Clk: 20 
+|H:0|A:2|F:B|-L
+
+Clk: 21 
+|H:0|A:0|F:P|-E
+
+Clk: 22 
+|H:0|A:0|F:P|-I
+
+Clk: 23 
+|H:0|A:0|F:P|-I
+
+Clk: 24 
+|H:0|A:0|F:P|-I
+
+Clk: 25 
+|H:0|A:0|F:P|-L
+
+Clk: 26 
+|H:0|A:3|F:B|-E
+
+Clk: 27 
+|H:0|A:3|F:B|-I
+
+Clk: 28 
+|H:0|A:3|F:B|-I
+
+Clk: 29 
+|H:0|A:3|F:B|-I
+
+Clk: 30 
+|H:0|A:3|F:B|-I
+
+Clk: 31 
+|H:0|A:3|F:B|-I
+
+Clk: 32 
+|H:0|A:3|F:B|-I
+
+Clk: 33 
+|H:0|A:3|F:B|-L
+
+Clk: 34 
+|H:0|A:1|F:P|-E
+
+Clk: 35 
+|H:0|A:1|F:P|-I
+
+Clk: 36 
+|H:0|A:1|F:P|-I
+
+Clk: 37 
+|H:0|A:1|F:P|-L
+
+Clk: 38 
+|H:0|A:2|F:B|-E
+
+Clk: 39 
+|H:0|A:2|F:B|-I
+
+Clk: 40 
+|H:0|A:2|F:B|-I
+
+Clk: 41 
+|H:0|A:2|F:B|-I
+|H:1|A:3|F:B|-E
+
+Clk: 42 
+|H:0|A:2|F:B|-I
+|H:1|A:3|F:B|-I
+
+Clk: 43 
+|H:0|A:2|F:B|-I
+|H:1|A:3|F:B|-L
+
+Clk: 44 
+|H:0|A:2|F:B|-I
+
+Clk: 45 
+|H:0|A:2|F:B|-I
+
+Clk: 46 
+|H:0|A:2|F:B|-I
+
+Clk: 47 
+|H:0|A:2|F:B|-I
+
+Clk: 48 
+|H:0|A:2|F:B|-L
+
+Clk: 49 
+
+Clk: 50 
+
+Clk: 51 
+
+Clk: 52 
+|H:0|A:0|F:P|-E
+
+Clk: 53 
+|H:0|A:0|F:P|-L
+
+Clk: 54 
+|H:0|A:1|F:P|-E
+
+Clk: 55 
+|H:0|A:1|F:P|-I
+
+Clk: 56 
+|H:0|A:1|F:P|-I
+
+Clk: 57 
+|H:0|A:1|F:P|-I
+
+Clk: 58 
+|H:0|A:1|F:P|-L
+
+Clk: 59 
+|H:0|A:3|F:B|-E
+
+Clk: 60 
+|H:0|A:3|F:B|-I
+
+Clk: 61 
+|H:0|A:3|F:B|-I
+|H:1|A:2|F:B|-E
+
+Clk: 62 
+|H:0|A:3|F:B|-I
+|H:1|A:2|F:B|-I
+
+Clk: 63 
+|H:0|A:3|F:B|-I
+|H:1|A:2|F:B|-L
+
+Clk: 64 
+|H:0|A:3|F:B|-I
+
+Clk: 65 
+|H:0|A:3|F:B|-I
+
+Clk: 66 
+|H:0|A:3|F:B|-I
+
+Clk: 67 
+|H:0|A:3|F:B|-L
+
+Clk: 68 
+|H:0|A:0|F:P|-E
+
+Clk: 69 
+|H:0|A:0|F:P|-I
+
+Clk: 70 
+|H:0|A:0|F:P|-I
+
+Clk: 71 
+|H:0|A:0|F:P|-I
+
+Clk: 72 
+|H:0|A:0|F:P|-I
+
+Clk: 73 
+|H:0|A:0|F:P|-I
+
+Clk: 74 
+|H:0|A:0|F:P|-I
+|H:1|A:1|F:P|-E
+
+Clk: 75 
+|H:0|A:0|F:P|-L
+|H:1|A:1|F:P|-I
+
+Clk: 76 
+|H:1|A:1|F:P|-I
+
+Clk: 77 
+|H:1|A:1|F:P|-I
+
+Clk: 78 
+|H:1|A:1|F:P|-I
+
+Clk: 79 
+|H:0|A:3|F:B|-E
+|H:1|A:1|F:P|-I
+
+Clk: 80 
+|H:0|A:3|F:B|-I
+|H:1|A:1|F:P|-I
+
+Clk: 81 
+|H:0|A:3|F:B|-I
+|H:1|A:1|F:P|-I
+
+Clk: 82 
+|H:0|A:3|F:B|-I
+|H:1|A:1|F:P|-I
+
+Clk: 83 
+|H:0|A:3|F:B|-I
+|H:1|A:1|F:P|-L
+
+Clk: 84 
+|H:0|A:3|F:B|-I
+
+Clk: 85 
+|H:0|A:3|F:B|-I
+
+Clk: 86 
+|H:0|A:3|F:B|-I
+
+Clk: 87 
+|H:0|A:3|F:B|-L
+|H:1|A:2|F:B|-E
+
+Clk: 88 
+|H:1|A:2|F:B|-I
+
+Clk: 89 
+|H:1|A:2|F:B|-I
+
+Clk: 90 
+|H:1|A:2|F:B|-I
+
+Clk: 91 
+|H:1|A:2|F:B|-L
+
+Clk: 92 
+
+Clk: 93 
+
+Clk: 94 
+
+Clk: 95 
+|H:0|A:1|F:P|-E
+
+Clk: 96 
+|H:0|A:1|F:P|-I
+
+Clk: 97 
+|H:0|A:1|F:P|-L
+
+Clk: 98 
+
+Clk: 99 
+
+Clk: 100 
+
+Clk: 101 
+
+Clk: 102 
+
+Clk: 103 
+
+Clk: 104 
+
+Clk: 105 
+

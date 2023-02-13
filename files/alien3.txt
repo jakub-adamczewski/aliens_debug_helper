@@ -1,0 +1,86 @@
+|c:0|r:3|f:B|s:NO_HOTEL|t:14:09:37|msg:Looking for hotel.|
+|c:0|r:3|f:B|s:NO_HOTEL|t:14:09:37|msg:sleeping for 2 seconds|
+|c:2|r:3|f:B|s:NO_HOTEL|t:14:09:38|msg:Got HOTEL_REQUEST from alien 2 for hotel 0 with clk 1|
+|c:3|r:3|f:B|s:NO_HOTEL|t:14:09:38|msg:Sent ACK|
+|c:5|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Got HOTEL_REQUEST from alien 0 for hotel 0 with clk 4|
+|c:6|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Sent ACK|
+|c:12|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Got HOTEL_REQUEST_ACK from alien 0 with clk 11|
+|c:12|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Sent requests for hotel 0.|
+|c:13|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Got HOTEL_REQUEST_ACK from alien 2 with clk 10|
+|c:14|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:39|msg:Got HOTEL_REQUEST_ACK from alien 1 with clk 8|
+|c:15|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:40|msg:Got HOTEL_REQUEST from alien 1 for hotel 1 with clk 9|
+|c:16|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:40|msg:Sent ACK|
+|c:19|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:42|msg:Got HOTEL_RELEASE from alien 1 with clk 18|
+|c:21|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:43|msg:Got HOTEL_RELEASE from alien 2 with clk 20|
+|c:23|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:45|msg:Got HOTEL_REQUEST from alien 1 for hotel 0 with clk 22|
+|c:24|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:45|msg:Sent ACK|
+|c:26|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:45|msg:Got HOTEL_RELEASE from alien 0 with clk 25|
+|c:26|r:3|f:B|s:IN_HOTEL|t:14:09:45|msg:E0.marker|
+|c:26|r:3|f:B|s:IN_HOTEL|t:14:09:45|msg:sleeping for 2 seconds|
+|c:28|r:3|f:B|s:IN_HOTEL|t:14:09:46|msg:Got HOTEL_REQUEST from alien 2 for hotel 0 with clk 27|
+|c:29|r:3|f:B|s:IN_HOTEL|t:14:09:46|msg:Sent ACK|
+|c:31|r:3|f:B|s:IN_HOTEL|t:14:09:47|msg:Got HOTEL_REQUEST from alien 0 for hotel 0 with clk 30|
+|c:32|r:3|f:B|s:IN_HOTEL|t:14:09:47|msg:Sent ACK|
+|c:33|r:3|f:B|s:NO_HOTEL|t:14:09:47|msg:L0.marker|
+|c:33|r:3|f:B|s:NO_HOTEL|t:14:09:47|msg:Looking for hotel.|
+|c:33|r:3|f:B|s:NO_HOTEL|t:14:09:47|msg:sleeping for 1 seconds|
+|c:34|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:48|msg:Sent requests for hotel 1.|
+|c:38|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:48|msg:Got HOTEL_REQUEST_ACK from alien 2 with clk 37|
+|c:40|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:48|msg:Got HOTEL_REQUEST_ACK from alien 0 with clk 39|
+|c:41|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:48|msg:Got HOTEL_REQUEST_ACK from alien 1 with clk 36|
+|c:41|r:3|f:B|s:IN_HOTEL|t:14:09:48|msg:E1.marker|
+|c:41|r:3|f:B|s:IN_HOTEL|t:14:09:48|msg:sleeping for 2 seconds|
+|c:42|r:3|f:B|s:IN_HOTEL|t:14:09:50|msg:Got HOTEL_RELEASE from alien 1 with clk 37|
+|c:43|r:3|f:B|s:NO_HOTEL|t:14:09:50|msg:L1.marker|
+|c:43|r:3|f:B|s:NO_HOTEL|t:14:09:50|msg:Looking for hotel.|
+|c:43|r:3|f:B|s:NO_HOTEL|t:14:09:50|msg:sleeping for 1 seconds|
+|c:46|r:3|f:B|s:NO_HOTEL|t:14:09:51|msg:Got HOTEL_REQUEST from alien 1 for hotel 0 with clk 45|
+|c:47|r:3|f:B|s:NO_HOTEL|t:14:09:51|msg:Sent ACK|
+|c:49|r:3|f:B|s:NO_HOTEL|t:14:09:51|msg:Got HOTEL_RELEASE from alien 2 with clk 48|
+|c:53|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:51|msg:Sent requests for hotel 0.|
+|c:53|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:51|msg:Got HOTEL_REQUEST_ACK from alien 2 with clk 52|
+|c:54|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:51|msg:Got HOTEL_REQUEST_ACK from alien 0 with clk 52|
+|c:55|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:51|msg:Got HOTEL_REQUEST_ACK from alien 1 with clk 53|
+|c:56|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:52|msg:Got HOTEL_RELEASE from alien 0 with clk 53|
+|c:57|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:54|msg:Got HOTEL_REQUEST from alien 2 for hotel 1 with clk 55|
+|c:58|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:54|msg:Sent ACK|
+|c:59|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:54|msg:Got HOTEL_RELEASE from alien 1 with clk 58|
+|c:59|r:3|f:B|s:IN_HOTEL|t:14:09:54|msg:E0.marker|
+|c:59|r:3|f:B|s:IN_HOTEL|t:14:09:54|msg:sleeping for 1 seconds|
+|c:64|r:3|f:B|s:IN_HOTEL|t:14:09:55|msg:Got HOTEL_RELEASE from alien 2 with clk 63|
+|c:65|r:3|f:B|s:IN_HOTEL|t:14:09:55|msg:Got HOTEL_REQUEST from alien 0 for hotel 0 with clk 60|
+|c:66|r:3|f:B|s:IN_HOTEL|t:14:09:55|msg:Sent ACK|
+|c:67|r:3|f:B|s:NO_HOTEL|t:14:09:55|msg:L0.marker|
+|c:67|r:3|f:B|s:NO_HOTEL|t:14:09:55|msg:Looking for hotel.|
+|c:67|r:3|f:B|s:NO_HOTEL|t:14:09:55|msg:sleeping for 2 seconds|
+|c:70|r:3|f:B|s:NO_HOTEL|t:14:09:56|msg:Got HOTEL_REQUEST from alien 1 for hotel 1 with clk 69|
+|c:71|r:3|f:B|s:NO_HOTEL|t:14:09:56|msg:Sent ACK|
+|c:72|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:57|msg:Sent requests for hotel 0.|
+|c:75|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:57|msg:Got HOTEL_REQUEST_ACK from alien 2 with clk 74|
+|c:77|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:57|msg:Got HOTEL_REQUEST_ACK from alien 1 with clk 76|
+|c:78|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:57|msg:Got HOTEL_REQUEST_ACK from alien 0 with clk 74|
+|c:79|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:09:57|msg:Got HOTEL_RELEASE from alien 0 with clk 75|
+|c:79|r:3|f:B|s:IN_HOTEL|t:14:09:57|msg:E0.marker|
+|c:79|r:3|f:B|s:IN_HOTEL|t:14:09:57|msg:sleeping for 3 seconds|
+|c:80|r:3|f:B|s:IN_HOTEL|t:14:09:58|msg:Got HOTEL_REQUEST from alien 2 for hotel 1 with clk 77|
+|c:81|r:3|f:B|s:IN_HOTEL|t:14:09:58|msg:Sent ACK|
+|c:82|r:3|f:B|s:IN_HOTEL|t:14:09:58|msg:Got HOTEL_REQUEST from alien 0 for hotel 1 with clk 80|
+|c:83|r:3|f:B|s:IN_HOTEL|t:14:09:58|msg:Sent ACK|
+|c:84|r:3|f:B|s:IN_HOTEL|t:14:09:59|msg:Got HOTEL_RELEASE from alien 1 with clk 83|
+|c:85|r:3|f:B|s:IN_HOTEL|t:14:10:00|msg:Got HOTEL_REQUEST from alien 1 for hotel 0 with clk 84|
+|c:86|r:3|f:B|s:IN_HOTEL|t:14:10:00|msg:Sent ACK|
+|c:87|r:3|f:B|s:NO_HOTEL|t:14:10:00|msg:L0.marker|
+|c:87|r:3|f:B|s:NO_HOTEL|t:14:10:00|msg:Looking for hotel.|
+|c:87|r:3|f:B|s:NO_HOTEL|t:14:10:00|msg:sleeping for 2 seconds|
+|c:92|r:3|f:B|s:NO_HOTEL|t:14:10:01|msg:Got HOTEL_RELEASE from alien 2 with clk 91|
+|c:98|r:3|f:B|s:NO_HOTEL|t:14:10:01|msg:Got HOTEL_RELEASE from alien 1 with clk 97|
+|c:99|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:10:02|msg:Sent requests for hotel 0.|
+|c:102|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:10:02|msg:Got HOTEL_REQUEST_ACK from alien 2 with clk 101|
+|c:103|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:10:02|msg:Got HOTEL_REQUEST_ACK from alien 0 with clk 101|
+|c:104|r:3|f:B|s:WAITING_TO_ENTER_HOTEL|t:14:10:02|msg:Got HOTEL_REQUEST_ACK from alien 1 with clk 101|
+|c:104|r:3|f:B|s:IN_HOTEL|t:14:10:02|msg:E0.marker|
+|c:104|r:3|f:B|s:IN_HOTEL|t:14:10:02|msg:sleeping for 3 seconds|
+|c:105|r:3|f:B|s:IN_HOTEL|t:14:10:03|msg:Got HOTEL_REQUEST from alien 2 for hotel 1 with clk 102|
+|c:106|r:3|f:B|s:IN_HOTEL|t:14:10:03|msg:Sent ACK|
+|c:107|r:3|f:B|s:IN_HOTEL|t:14:10:03|msg:Got HOTEL_REQUEST from alien 1 for hotel 1 with clk 105|
+|c:108|r:3|f:B|s:IN_HOTEL|t:14:10:03|msg:Sent ACK|
